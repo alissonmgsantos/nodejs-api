@@ -1,14 +1,5 @@
-var express = require('express');
+var app = require('./src/config/customExpress')();
 
-var app = express();
-
-app.listen(3000, function () {
-   console.log('Servidor rodando na porta 3000');
-  
-    
-});
-
-
-app.get('/', function (req, res) {
-    res.send('OK 1');
+app.listen(3000, function(){
+  console.log('Servidor rodando na porta 3000.');
 });
