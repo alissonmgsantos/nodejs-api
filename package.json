@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "Gateway de pagamento atraves de recursos http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alissonmgsantos/nodejs-api.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "alissonmgsantos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alissonmgsantos/nodejs-api/issues"
+  },
+  "homepage": "https://github.com/alissonmgsantos/nodejs-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
